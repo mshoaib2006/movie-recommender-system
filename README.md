@@ -1,4 +1,4 @@
-# 🎬 Movie Recommender System — Streamlit + Machine Learning + MySQL
+#  Movie Recommender System — Streamlit + Machine Learning + MySQL
 
 A clean and interactive movie recommendation web application built with **Python**, **Streamlit**, **Pandas**, **Pickle**, **MySQL**, and **The Movie Database API**.
 
@@ -6,7 +6,7 @@ This project allows users to create an account, login, select a movie, and get s
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 The **Movie Recommender System** is designed to help users discover movies similar to the one they already like.
 
@@ -25,55 +25,55 @@ The project uses a precomputed similarity model to quickly recommend movies base
 
 ---
 
-## 🖼️ Project Screenshots
+##  Project Screenshots
 
 Below are the working screenshots of the **Movie Recommender System** application.
 
 ---
 
 ### 1. Application Screen
-![Movie Recommender Screenshot](src/src1.png)
+![Movie Recommender Screenshot](movie_recomedation/src/src1.png)
 
 ---
 
 ### 2. Signup Screen
-![Signup Screen](src/src2.png)
+![Signup Screen](movie_recomedation/src/src2.png)
 
 ---
 
 ### 3. Login Screen
-![Login Screen](src/src3.png)
+![Login Screen](movie_recomedation/src/src3.png)
 
 ---
 
 ### 4. Movie Selection Screen
-![Movie Selection Screen](src/src4.png)
+![Movie Selection Screen](movie_recomedation/src/src4.png)
 
 ---
 
 ### 5. Recommended Movies
-![Recommended Movies](src/src5.png)
+![Recommended Movies](movie_recomedation/src/src5.png)
 
 ---
 
 ### 6. Recommendation With Posters
-![Recommendation Posters](src/src6.png)
+![Recommendation Posters](movie_recomedation/src/src6.png)
 
 ---
 
 ### 7. Selected Movie History
-![Selected Movie History](src/src7.png)
+![Selected Movie History](movie_recomedation/src/src7.png)
 
 ---
 
 ### 8. Recommendation History
-![Recommendation History](src/src8.png)
+![Recommendation History](movie_recomedation/src/src8.png)
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-### 👤 User Authentication
+###  User Authentication
 
 The app includes a simple authentication system where users can:
 
@@ -86,7 +86,7 @@ Passwords are stored securely using password hashing.
 
 ---
 
-### 🎥 Movie Recommendation
+###  Movie Recommendation
 
 Users can select a movie from the dropdown list and get similar movies instantly.
 
@@ -100,7 +100,7 @@ The recommendation system:
 
 ---
 
-### 🖼️ Movie Poster Fetching
+###  Movie Poster Fetching
 
 The app fetches movie posters using **TMDB API**.
 
@@ -112,7 +112,7 @@ For each recommended movie:
 
 ---
 
-### 💾 MySQL Database Integration
+### MySQL Database Integration
 
 The system stores user activity in MySQL.
 
@@ -128,7 +128,7 @@ This makes the project more practical and closer to a real-world application.
 
 ---
 
-### 📜 User History
+###  User History
 
 Each logged-in user can view their own history.
 
@@ -141,7 +141,7 @@ The history section shows:
 
 ---
 
-### ⚡ Fast Data Loading
+###  Fast Data Loading
 
 Movie data and similarity data are loaded from pickle files:
 
@@ -152,7 +152,7 @@ Streamlit caching is used to avoid loading the same data again and again, which 
 
 ---
 
-## 🧠 Recommendation Logic
+##  Recommendation Logic
 
 The recommendation system is based on a precomputed similarity matrix.
 
